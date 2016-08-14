@@ -1,10 +1,74 @@
+html {
+    width: 1200px;
+}
+
 body {
+    min-width: 1200px;
+    min-height: 1173px;
     font-size: 14px;
     line-height: 1.7;
     color: #000000;
     font-weight: bold;
-    font-family: "PT Sans Narrow Bold", "Trebuchet MS", Helvetica, sans-serif;    
+    font-family: "PT Sans Narrow Bold", "Trebuchet MS", Helvetica, sans-serif;  
+    margin: 0;
+    padding: 0;
 }
+
+body {
+  background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;
+  background-size: 1122px auto;
+}
+
+.main-header {
+    min-height: 70px;
+}
+
+.container {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 170px;
+    min-height: 70px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main-navigation {
+    float: left;
+    width: 520px;
+    min-height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.user-block {
+    float: right;
+    width: 230px;
+    min-height: 70px;
+ }
+
+.main-navigation-button {
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+.user-block-button {
+    float: right;
+    width: 80px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .name {
     font-size: 30px;
