@@ -16,24 +16,23 @@ body {
 
 body {
   background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;
-  background-size: 1122px auto;
+  background-size: 1200px auto;
 }
 
 .main-header {
-    min-height: 70px;
-    margin-bottom: 50px;
+    min-height: 75px;
 }
 
 .container {
-    width: 960px;
+    width: 940px;
     padding: 0 10px;
     margin: 0 auto;
 }
 
 .logo {
     float: left;
-    width: 170px;
-    min-height: 70px;
+    width: 150px;
+    min-height: 75px;
     text-align: right;
     margin-right: 20px;
 }
@@ -41,7 +40,7 @@ body {
 .main-navigation {
     float: left;
     width: 520px;
-    min-height: 70px;
+    min-height: 75px;
     padding: 0;
     margin: 0;
 }
@@ -49,7 +48,7 @@ body {
 .user-block {
     float: right;
     width: 230px;
-    min-height: 70px;
+    min-height: 75px;
  }
 
 .main-navigation-button {
@@ -71,7 +70,8 @@ body {
 }
 
 .main {
-    min-height: 910px;
+    min-height: 862px;
+    padding-top: 50px;
 }
 
 .name {
@@ -86,7 +86,7 @@ body {
     min-height: 50px;
     padding: 0;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .second-navigation-button {
@@ -98,27 +98,82 @@ body {
 .selection {
     float: left;
     width: 230px;
-    min-height: 590px;
+    min-height: 592px;
 }
 
 .producers {
     float: left;
     width: 230px;
-    min-height: 270px;
+    min-height: 287px;
     margin-bottom: 20px;
 }
 
 .product {
     float: left;
     width: 230px;
-    min-height: 180px;
+    min-height: 200px;
     margin-bottom: 20px;
 }
 
 .show {
     float: left;
     width: 230px;
-    min-height: 90px;
+    min-height: 65px;
+}
+
+.goods {
+    float: right;
+    width: 700px;
+    height: 592px;
+    font-size: 0;
+}
+
+.good-iteam {
+    float: left;
+    width: 220px;
+    min-height: 287px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.good-iteam:nth-child(3n) {
+    margin-right: 0;
+}
+
+.good-iteam:nth-child(n+4) {
+    margin-bottom: 0;
+}
+
+.pages {
+    float: left;
+    width: 940px;
+    min-height: 138px;
+}
+
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 32px;
+    min-height: 93px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 330px;
+    min-height: 93px;
+    margin-right: 60px
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+    min-height: 93px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 160px;
+    min-height: 93px;
 }
 
 .composition,
