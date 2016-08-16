@@ -4,7 +4,7 @@ html {
 
 body {
     min-width: 1200px;
-    min-height: 1173px;
+    min-height: 1166px;
     font-size: 14px;
     line-height: 1.7;
     color: #000000;
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;
+  background: #000000 url("../img/barbershop-item.jpg") no-repeat 50% 3px;
   background-size: 1200px auto;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .main {
-    min-height: 862px;
+    /*min-height: 862px;*/
     padding-top: 50px;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .second-navigation-button {
     float: left;
-    width: 100px;
+    width: auto;
     text-align: center;
 }
 
@@ -149,6 +149,60 @@ body {
     float: left;
     width: 940px;
     min-height: 138px;
+}
+
+.product-1 {
+    float: left;
+    width: 940px;
+    min-height: 670px;
+}
+
+.gallery {
+    float: left;
+    width: 480px;
+    min-height: 670px;
+}
+
+.gallery-container {
+    float: left;
+    width: 460px;
+    min-height: 670px;
+    margin: 0;
+}
+
+.description {
+    float: right;
+    width: 400px;
+    min-height: 670px;
+    margin-bottom: 49px;
+}
+
+.availability {
+    float: left;
+    width: 160px;
+}
+
+.vendor-code {
+    float: right;
+    width: 160px;
+}
+
+.detail {
+    float: left;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.buy {
+    float: left;
+    width: 400px;
+    min-height: 65px;
+    margin-bottom: 50px;
+}
+
+.scroll {
+    float: left;
+    width: 400px;
 }
 
 .main-footer {
