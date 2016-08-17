@@ -1,9 +1,8 @@
 html {
-    width: 1200px;
+
 }
 
 body {
-    min-width: 1200px;
     min-height: 1166px;
     font-size: 14px;
     line-height: 1.7;
@@ -70,7 +69,7 @@ body {
 }
 
 .main {
-    /*min-height: 862px;*/
+    min-height: 862px;
     padding-top: 50px;
 }
 
@@ -81,8 +80,6 @@ body {
 }
 
 .second-navigation {
-    float: left;
-    width: 960px;
     min-height: 50px;
     padding: 0;
     margin: 0;
@@ -90,9 +87,7 @@ body {
 }
 
 .second-navigation-button {
-    float: left;
-    width: auto;
-    text-align: center;
+    display: inline-block;
 }
 
 .selection {
@@ -122,10 +117,7 @@ body {
 }
 
 .goods {
-    float: right;
-    width: 700px;
-    height: 592px;
-    font-size: 0;
+    margin-left: 230px;
 }
 
 .good-iteam {
@@ -134,7 +126,6 @@ body {
     min-height: 287px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-size: 14px;
 }
 
 .good-iteam:nth-child(3n) {
@@ -145,9 +136,12 @@ body {
     margin-bottom: 0;
 }
 
+.good-iteam:nth-child(3n-2) {
+    margin-left: 10px;
+}
+
 .pages {
-    float: left;
-    width: 940px;
+    width: 100%;
     min-height: 138px;
 }
 
