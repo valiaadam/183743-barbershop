@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <link href="css/style.css" rel="stylesheet">
+  <head>    
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
   </head>
   <body>
       <header class="main-header">
@@ -24,7 +26,7 @@
                       <a href="#">Прайс-лист</a>
                   </li>
                   <li class="main-navigation-button">
-                      <a href="#">Магазин</a>
+                      <a class="active" href="#">Магазин</a>
                   </li>
                   <li class="main-navigation-button">
                       <a href="#">Контакты</a>
@@ -48,14 +50,14 @@
                       <a href="#">Магазин</a>
                   </li>
                   <li class="second-navigation-button">
-                      <a href="#">Средства ухода</a>
+                      <a href="#">Средства для ухода</a>
                   </li>
               </ul>
               <form class="selection" action="#" method="post">
                   <div class="producers">
                       <h2 class="selection-iteam">ПРОИЗВОДИТЕЛИ:</h2>
                       <div class="producers-item">    
-                          <label><input type="checkbox" name="baxter-of-california" checked>BAXTER OF CALIFORNIA</label>
+                          <label><input class="checkbox" type="checkbox" name="baxter-of-california" checked>BAXTER OF CALIFORNIA</label>
                       </div>
                       <div class="producers-item">
                           <label><input type="checkbox" name="mr-natty">MR Natty</label>
@@ -88,7 +90,7 @@ accessorie">АКСЕССУАРЫ</label>
                       </div>
                   </div>
                   <div class="show">
-                      <input type="submit" value="Показать">
+                      <input class="btn-form" type="submit" value="Показать">
                   </div>
               </form>
               <div class="goods clearfix">

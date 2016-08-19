@@ -7,19 +7,32 @@ body {
     font-size: 14px;
     line-height: 1.7;
     color: #000000;
-    font-weight: bold;
-    font-family: "PT Sans Narrow Bold", "Trebuchet MS", Helvetica, sans-serif;  
+    font-weight: 700;
+    font-family: "PT Sans Narrow", "Trebuchet MS", Helvetica, sans-serif;  
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
 
 body {
-  background: #000000 url("../img/barbershop-item.jpg") no-repeat 50% 3px;
+ /* background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;*/
   background-size: 1200px auto;
 }
 
 .main-header {
-    min-height: 75px;
+    font-size: 0;
+    background-color: black;
+}
+
+.main-header a {  
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
 }
 
 .container {
@@ -30,36 +43,73 @@ body {
 
 .logo {
     float: left;
-    width: 150px;
-    min-height: 75px;
-    text-align: right;
-    margin-right: 20px;
+    text-align: center;
 }
 
 .main-navigation {
     float: left;
-    width: 520px;
-    min-height: 75px;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .user-block {
     float: right;
-    width: 230px;
-    min-height: 75px;
  }
 
 .main-navigation-button {
     float: left;
-    width: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
     text-align: center;
+    
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+.main-navigation a:hover {
+  background: #242424;
 }
 
 .user-block-button {
     float: right;
-    width: 80px;
+    max-width: 140px;
+    
+}
+
+.login {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align: top;
+    line-height: 1.25;
     text-align: center;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.login:hover {
+    background-color: #242424;
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 65px;
+    width: 18px;
+    height: 18px;
+    background: transparent url("img/sprite.png") no-repeat;
+    background-position: ;
+    opacity: 0.3;
+}
+
+.login:hover::before {
+  opacity: 1;
 }
 
 .clearfix::after {
@@ -83,11 +133,28 @@ body {
     min-height: 50px;
     padding: 0;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .second-navigation-button {
     display: inline-block;
+}
+
+.second-navigation a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+
+.second-navigation-button:last-child a {
+     color: #aba9a7;
+}
+
+.second-navigation-button:nth-child(2) {
+    padding-left: 37px;
+    padding-right: 42px;
 }
 
 .selection {
@@ -100,7 +167,7 @@ body {
     float: left;
     width: 230px;
     min-height: 287px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .product {
@@ -112,8 +179,39 @@ body {
 
 .show {
     float: left;
-    width: 230px;
-    min-height: 65px;
+    width: 116px;
+    
+}
+
+.producers-item {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.product-item {
+    padding-top: 6px;
+    padding-bottom: 15px;
+}
+
+.checkbox {
+    padding-right: 10px;
+}
+
+.btn-form {
+    position: relative;
+    font-size: 13px;
+    line-height: 1.38;
+    font-weight: 700;
+    color: white;
+    font-family: "PT Sans Narrow", "Trebuchet MS", Helvetica, sans-serif;  
+    text-transform: uppercase;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: black;
+    border: none;
+    
 }
 
 .goods {
