@@ -15,7 +15,7 @@ body {
 }
 
 body {
- /* background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;*/
+  background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;
   background-size: 1200px auto;
 }
 
@@ -193,8 +193,19 @@ body {
     padding-bottom: 15px;
 }
 
+.product-item {
+    padding-bottom: 14px;
+}
+
 .checkbox {
-    padding-right: 10px;
+    padding-left: 24px;
+}
+
+
+
+.radio {
+    max-width: 150px;
+    margin-left: 22px;
 }
 
 .btn-form {
@@ -221,6 +232,7 @@ body {
 .good-iteam {
     float: left;
     width: 220px;
+    font-size: 0;
     min-height: 287px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -236,6 +248,52 @@ body {
 
 .good-iteam:nth-child(3n-2) {
     margin-left: 10px;
+}
+
+.good-foto {
+    width: 220px;
+    height: 171px;
+}
+
+.product-name {
+    display: block;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-left: 17px;
+    margin-bottom: 13px;
+}
+
+span {
+    text-transform: none;
+}
+
+.good-price {
+    display: inline-block;
+    font-size: 14px;
+    width: 109px;
+    height: 33px;
+    background-color: #e5e5e5;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 14px;
+}
+
+.good-btn {
+    display: inline-block;
+    font-size: 14px;
+    width: 78px;
+    height: 33px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.good-btn a {
+    color: white;
+    text-decoration: none;
 }
 
 .pages {
