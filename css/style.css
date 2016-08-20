@@ -233,9 +233,11 @@ body {
     float: left;
     width: 220px;
     font-size: 0;
-    min-height: 287px;
+    /*min-height: 287px;*/
+    margin-top: 6px;
     margin-right: 20px;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .good-iteam:nth-child(3n) {
@@ -244,6 +246,7 @@ body {
 
 .good-iteam:nth-child(n+4) {
     margin-bottom: 0;
+    margin-top: 0px;
 }
 
 .good-iteam:nth-child(3n-2) {
@@ -255,19 +258,30 @@ body {
     height: 171px;
 }
 
+.good-information {
+     margin-bottom: 16px;
+}
+
 .product-name {
-    display: block;
-    font-size: 14px;
-    line-height: 1.29;
-    color: #000000;
-    text-decoration: none;
-    padding-top: 13px;
+    
+    padding-top: 7px;
     padding-left: 17px;
     margin-bottom: 13px;
 }
 
+.product-name a {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #000000;
+    text-decoration: none;
+}
+
 span {
     text-transform: none;
+}
+
+.price-buy {
+   
 }
 
 .good-price {
@@ -299,6 +313,34 @@ span {
 .pages {
     width: 100%;
     min-height: 138px;
+}
+
+.page-number {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 240px;
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    margin-right: 4px;
+}
+
+.page-number a {
+    display: block;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 11px;
+    text-decoration: none;
+}
+
+.active-page {
+    background-color: white;
+}
+
+.active-page a {
+    color: black;
 }
 
 .product-1 {
