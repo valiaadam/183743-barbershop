@@ -90,7 +90,7 @@ body {
     display: inline-block;
     width: 18px;
     height: 16px;
-    background-position: -5px -37px;
+    background-position: -27px -5px;
     margin-right: 13px;
 }
 
@@ -144,6 +144,7 @@ body {
 }
 
 .second-navigation {
+
     min-height: 50px;
     padding: 0;
     margin: 0;
@@ -151,15 +152,17 @@ body {
 }
 
 .second-navigation-button {
+    position: relative;
     display: inline-block;
 }
 
 .second-navigation a {
-    display: block;
+    display: inline-block;
     color: black;
     text-decoration: none;
     padding-top: 15px;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;
+    padding-right: 13px;
 }
 
 .second-navigation-button:last-child a {
@@ -167,8 +170,24 @@ body {
 }
 
 .second-navigation-button:nth-child(2) {
-    padding-left: 37px;
-    padding-right: 42px;
+    padding-left: 13px;
+    padding-right: 15px;
+}
+
+.second-navigation-button:nth-child(2) a {
+    padding-right: 17px;
+}
+
+.second-navigation-button:nth-child(1)::after,
+.second-navigation-button:nth-child(2)::after{
+  content: "";
+
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  transform: rotate(45deg);
 }
 
 .selection {
@@ -452,10 +471,35 @@ span {
     text-align: inherit;
     margin-right: 5px;
     background-color: black;
+    vertical-align: middle;
 }
 
 .social:last-child {
     margin-right: 0;
+}
+
+.sprite-v {
+    display: inline-block;
+    width: 25px;
+    height: 16px;
+    background-position: -55px -5px;
+    margin-top: 14px;
+}
+
+.sprite-f {
+    display: inline-block;
+    width: 12px;
+    height: 22px;
+    background-position: -5px -5px;
+    margin-top: 11px;
+}
+
+.sprite-inst {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-position: -27px -31px;
+    margin-top: 11px;
 }
 
 .footer-copyright {
